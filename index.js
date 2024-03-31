@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 const todoList = [];
@@ -42,7 +43,7 @@ function viewlist() {
     todoList.forEach((item, index) => {
         console.log(`${index + 1}.[${item.completed ? 'x' : ''}] ${item.task} `);
     });
-    console.log(chalk.blue("****************************"));
+    console.log(chalk.blue("***********************"));
 }
 async function markascompleted() {
     let { index } = await inquirer.prompt({
