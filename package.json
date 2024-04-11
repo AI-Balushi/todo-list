@@ -1,6 +1,6 @@
 {
-  "name": "@abdul_waheed/todo-list",
-  "version": "4.0.1",
+  "name": "abdul-todo-list",
+  "version": "1.0.0",
   "description": "A simple and efficient Todo List application to help you manage your tasks and stay organized.",
   "main": "index.js",
   "type": "module",
