@@ -1,13 +1,13 @@
 # CLI Todo List
 
-A simple command-line interface (CLI) Todo List application built with TypeScript and Node.js.
+The Todo List Command Line Interface (CLI) allows users to manage their tasks with ease. Users can add new tasks, delete existing tasks, update task details, and view their complete todo list. The CLI provides a simple and interactive way to organize tasks for better productivity.
 
 # Features
 
-Add tasks to your todo list
-View your current todo list
-Mark tasks as completed
-Delete tasks from your todo list
+Add new tasks to the todo list.
+Delete tasks from the todo list.
+Update task details such as task name.
+View the complete todo list with task numbers.
 
 # Installation
 
@@ -20,16 +20,19 @@ npm install
 3- Run the application:
 npm start
 
-# Usage
+# How to Use
 
-Use the arrow keys to navigate the menu
-Select an action by pressing 'Enter'
-Follow the prompts to add, view, mark as completed, or delete tasks
+1- Clone the repository.
+2- Install dependencies using npm install.
+3- Run the CLI using npm start.
+4- Follow the on-screen instructions to select an option from the menu, such as adding a task, deleting a task, updating a task, viewing the todo list, or exiting the CLI.
 
 # Dependencies
 
-inquirer: For interactive command-line user interfaces
-chalk: For styling the command-line output
+`inquirer` for the interactive CLI interface.
+`chalk` for adding colors to the CLI output.
+`figlet` for generating ASCII art for the welcome message.
+`gradient-string` for creating colorful gradients for the welcome message.
 
 # License
 
